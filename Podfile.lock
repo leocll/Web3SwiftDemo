@@ -1,0 +1,124 @@
+PODS:
+  - Alamofire (4.7.3)
+  - BigInt (3.1.0):
+    - SipHash (~> 1.2)
+  - CLLBasic (1.0.0)
+  - CLLHud (1.0.0)
+  - CryptoSwift (0.13.0)
+  - EthereumABI (1.1.1):
+    - BigInt (~> 3.1)
+    - CryptoSwift (~> 0.13)
+    - EthereumAddress (~> 1.0.0)
+  - EthereumAddress (1.0.0):
+    - CryptoSwift (~> 0.13)
+  - IpfsApi (0.2.0):
+    - Moya (~> 11.0)
+  - KeychainSwift (13.0.0)
+  - MJRefresh (3.1.15.7)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (11.0.2):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - ObjectMapper (3.3.0)
+  - PromiseKit (6.5.2):
+    - PromiseKit/CorePromise (= 6.5.2)
+    - PromiseKit/Foundation (= 6.5.2)
+    - PromiseKit/UIKit (= 6.5.2)
+  - PromiseKit/CorePromise (6.5.2)
+  - PromiseKit/Foundation (6.5.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.5.2):
+    - PromiseKit/CorePromise
+  - Result (3.2.4)
+  - RxAtomic (4.4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - scrypt (2.0):
+    - CryptoSwift (~> 0.11)
+  - secp256k1_swift (1.0.3)
+  - SipHash (1.2.2)
+  - SwiftRLP (1.2):
+    - BigInt (~> 3.1)
+  - web3swift (2.0.0):
+    - BigInt (~> 3.1)
+    - CryptoSwift (~> 0.13)
+    - EthereumABI (~> 1.1.1)
+    - EthereumAddress (~> 1.0.0)
+    - PromiseKit (~> 6.3)
+    - scrypt (~> 2.0)
+    - secp256k1_swift (~> 1.0.3)
+    - SwiftRLP (~> 1.1)
+
+DEPENDENCIES:
+  - CLLBasic
+  - CLLHud
+  - IpfsApi
+  - KeychainSwift
+  - MJRefresh
+  - Moya/RxSwift
+  - ObjectMapper
+  - web3swift (from `https://github.com/leocll/web3swift.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BigInt
+    - CryptoSwift
+    - EthereumABI
+    - EthereumAddress
+    - IpfsApi
+    - KeychainSwift
+    - MJRefresh
+    - Moya
+    - ObjectMapper
+    - PromiseKit
+    - Result
+    - RxAtomic
+    - RxSwift
+    - scrypt
+    - secp256k1_swift
+    - SipHash
+    - SwiftRLP
+  https://github.com/leocll/Specs.git:
+    - CLLBasic
+    - CLLHud
+
+EXTERNAL SOURCES:
+  web3swift:
+    :git: https://github.com/leocll/web3swift.git
+
+CHECKOUT OPTIONS:
+  web3swift:
+    :commit: 33cfaba8cee86db8cc05adcb542d0b451f53299c
+    :git: https://github.com/leocll/web3swift.git
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
+  CLLBasic: 41eee3d5288b1cbb4b424f088d834641667a69ae
+  CLLHud: c15368e96c4b28534610ff2e7173678bc5a92ad0
+  CryptoSwift: 16e78bebf567bad1c87b2d58f6547f25b74c31aa
+  EthereumABI: f040f5429e5a4366d028c88b88d9441e137593af
+  EthereumAddress: f476e1320dca3a0024431e713ede7a09c7eb7796
+  IpfsApi: d9e21ba19559a3ca22157644ca41f966fe8d6774
+  KeychainSwift: 23d6c16cbc33f20fafa30c3d783241b4b87d998c
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  PromiseKit: 27c1601bfb73405871b805bcb8cf7e55c4dad3db
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  scrypt: 3fe5b1a3b0976f97cd87488673a8f7c65708cc84
+  secp256k1_swift: 4fc5c4b2d2c6d21ee8ccb868cdc92da12f38bed9
+  SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
+  SwiftRLP: 98a02b2210128353ca02e4c2f4d83e2a9796db4f
+  web3swift: d2abc44359f487ab606b412650f40efde27ff2ed
+
+PODFILE CHECKSUM: c4963328166adc537e4910ec79de13ffa3c10ecb
+
+COCOAPODS: 1.5.3
